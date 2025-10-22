@@ -13,6 +13,23 @@ function getPersos() {
 }
 export default getPersos;
 
+function addPerso(perso : Perso){
+    console.log(perso);
+    const response = fetch('/src/data/persos.json', {method:"Post",
+        body:JSON.parse(JSON.stringify(perso))}
+    )
+    .then((response=>response.json));
+    
+    //add to existing date in persos.json
+    //or rewriter the whole file
+}
+export {addPerso};
+
+
+
+
+
+
 
 /*
 
