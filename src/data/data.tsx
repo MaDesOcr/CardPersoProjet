@@ -1,10 +1,5 @@
 import Perso from "../model/Perso";
 import listpersos from "./persos.json";
-/*
-const persos : Perso[] = [new Perso("Mario", "Joueur1", 1300),
-    new Perso("Mario", "Joueur2", 1400)
-];*/
-
 
 function getPersos() {
     const listP : Perso[] =
