@@ -1,5 +1,5 @@
 import Bonjour from "./Bonjour"
-import persos from "./data/data";
+import getPersos from "./data/data";
 import Card from "./Component/Card";
 import "./App.css"
 
@@ -8,7 +8,7 @@ function App(){
         <div>
             <Bonjour name={"MOI"} age={25}/>
             <div className="cards">
-                {persos.map((p) => (
+                {getPersos().map((p) => (
                     <Card perso={p}/>
                 ))}  
             </div>      
