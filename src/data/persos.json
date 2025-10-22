@@ -1,0 +1,13 @@
+{"persos": [
+        {
+            "nomJoueur" : "joueur1",
+            "nomPerso" : "mario",
+            "score" : 1900
+        },
+        {
+            "nomJoueur" : "joueur1",
+            "nomPerso" : "mario",
+            "score" : 1900
+        }
+    ]
+}
